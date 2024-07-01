@@ -144,27 +144,40 @@ a{
     padding-top:5px;
 }
 
-.review img{
-    width: 38vw;
-    max-height: 50vw;
-    pointer-events: none;
-}
-
-#reviewText p{
+#techstackText p{
     padding-top: 20px;
     font-size: 1.2rem;
     opacity: 0.6;
     padding-bottom: 10px;
 }
-#reviewText{
+#techstackText{
     border-bottom: 1px solid rgba(226, 223, 223, 0.171);
 }
 
-#reviews{
-    display: flex;
-    padding-top: 15vh;
+#techstackContainer{
+    padding-top:20px;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap:10px;
 }
-.review{
+.techstackIcon{
+    min-height: 100px;
+}
+.techstack{
+    background-color: #1f1f1fc0;
+    border-radius: 10px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.techstack img{
+    width: 78px;
+    margin:auto;
+    padding: 10px;
+}
+.techstackText{
     margin:auto;
 }
 
