@@ -10,6 +10,16 @@
 </head>
 
 <body>
+    <div id = "emailCopy">
+        <button class="button-50" id="CopyButton" onclick= 'navigator.clipboard.writeText("arya@neildev.site");  CopyButton.innerHTML= "Copied Email to clipboard!"; CopyButton.style.backgroundColor = "green";
+         setTimeout(() => {
+           CopyButton.innerHTML= "<img src=\"src/icons/mail.png\" alt=\"Copy\">";
+            CopyButton.style.backgroundColor =  "#161313";
+          }, "2000");'
+           role="button">
+            <img src="src/icons/mail.png" alt="Copy">
+        </button>
+    </div>
     <div id="sectionContainer">
         <div class="Section" id="Section1">
             <div class="container">
@@ -67,7 +77,7 @@
         <div class="Section" id="Section2">
             <div class="container" id="container3">
                 <div id="Section2Header">
-                    <p>Tech Stacks</p>
+                    <p>Tech Stacks.</p>
                     <div class="cursorBlink"></div>
                 </div>
                 <div id="techstackText">
@@ -147,6 +157,23 @@
                             Blender
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+        <div class="Section" id="Section4">
+            <div class="container" id="container4">
+                <div id="Section2Header">
+                    <p>Resume.</p>
+                    <div class="cursorBlink"></div>
+                </div>
+                <div id="techstackText">
+                    <p>My work resume which includes all my active socials and work experience is down below.</p>
+                </div>
+                <div id="resumeContainer">
+                    <a href="resume.pdf" download="AryaBose_Resume">
+                        <button class="button-50" role="button">Download Resume</button>
+                    </a>
+
                 </div>
             </div>
         </div>
